@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    background-color: rgb(242, 246, 254);
 }
 
 body{
@@ -7,19 +8,28 @@ body{
     height: 100%;
 }
 
-form{
-    width: 300px;
+form {
     margin: 200px;
+    text-align: center;
+    align-items: center;
+}
+
+h1 {
     text-align: center;
 }
 
-form{
-    text-align: center;
-}
 input{
     display: block;
     margin: 10px auto;
     width: 250px;
     height: 30px;
 }
-]
+
+section{
+    align-items: center;
+    text-align: center;
+}
+
+textarea {
+    background-color: rgb(245, 241, 236);   
+}
