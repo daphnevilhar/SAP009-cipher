@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Digite o texto que precisa criptografar:</h1>
-
+    
 <section>
-    <textarea id="textBox1" cols="60" rows="10"></textarea>
-    <input type="button" value="Criptografar" onclick="criptografar()">
-    <button class="Descriptografar">Descriptografar</button>
-    <textarea id="textBox2" cols="60" rows="10"></textarea>
-    <input type="button" value="Adicionar ao prontuário" onclick="" >
-    <input type="button" value="Sair" onclick="" >
+    <textarea id="caixaTexto1" cols="60" rows="10"></textarea>
+    <input id="deslocamento" type="number" placeholder="Deslocamento" min="1" max="13">
+    <button id="btnCriptografar">Criptografar</button>
+    <button id="btnDescriptografar">Descriptografar</button><br>
+    <textarea id="caixaTexto2" cols="60" rows="10"></textarea><br>
+    <button>Adicionar ao prontuário</button>
+    <button id="sair">Sair</button>
 </section>       
     
     <script src="index.js" type="module"></script></body>
