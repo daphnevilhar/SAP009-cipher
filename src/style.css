@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    background-color: rgb(242, 246, 254);
+    background-color: rgb(182, 223, 173);
 }
 
 body{
@@ -8,28 +8,80 @@ body{
     height: 100%;
 }
 
-form {
-    margin: 200px;
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-color: #FFF;
     text-align: center;
     align-items: center;
 }
 
-h1 {
+div#login-container{
+    background-color: #FFF;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px 30px;
+    margin-top: 200px;
+    border-radius: 10px;
     text-align: center;
 }
 
-input{
+button#entrar{
     display: block;
     margin: 10px auto;
+    border-radius: 2px;
     width: 250px;
     height: 30px;
 }
 
-section{
-    align-items: center;
+h1{
     text-align: center;
+    background-color: #FFF;
 }
 
-textarea {
-    background-color: rgb(245, 241, 236);   
+input{
+    display: block;
+    background-color: #FFF;
+    margin: 10px auto;
+    border-radius: 2px;
+    width: 250px;
+    height: 30px;
+}
+
+input#deslocamento{
+    width: 107px;
+    background-color: rgb(245, 241, 236);
+    border: none;
+    border-radius: 2px;
+}
+
+button{
+    margin: 10px auto;
+    background-color: rgb(255, 255, 255);
+    border: darkgray;
+    border-radius: 2px;
+    color: rgb(0, 0, 0) ;
+    padding: 5px 10px;
+    width: 11%;
+    text-align: center;
+    font-size: 13px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color:rgb(220, 220, 220); 
+    color:rgb(53, 53, 53);
+}
+
+section#caixasTexto{
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+textarea{
+    background-color: rgb(245, 241, 236); 
+    border-radius: 2px;  
 }
