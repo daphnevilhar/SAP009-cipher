@@ -9,16 +9,14 @@ const btnSair = document.querySelector("#sair");
 
 btnCriptografar.addEventListener("click", function(){
   const mensagem = (caixaTexto1.value);
-  const mensagemFinal = mensagem.toUpperCase();
   const offset = parseInt(deslocamento.value);
-  caixaTexto2.value = cipher.encode(mensagemFinal, offset);
+  caixaTexto2.value = cipher.encode(offset, mensagem); 
 })
 
 btnDescriptografar.addEventListener("click", function(){
   const mensagem = (caixaTexto1.value);
-  const mensagemFinal = mensagem.toUpperCase();
   const offset = parseInt(deslocamento.value);
-  caixaTexto2.value = cipher.decode(mensagemFinal, offset);
+  caixaTexto2.value = cipher.decode(offset, mensagem);
 })
 
 btnSair.addEventListener("click", function(){

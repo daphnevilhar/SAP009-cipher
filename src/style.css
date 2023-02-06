@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    background-color: rgb(182, 223, 173);
+    background-color: rgb(191, 220, 195);
 }
 
 body{
@@ -22,9 +22,27 @@ div#login-container{
     margin-right: auto;
     margin-left: auto;
     padding: 20px 30px;
-    margin-top: 200px;
+    margin-top: 130px;
     border-radius: 10px;
     text-align: center;
+}
+
+img#imagem-logo{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    border-radius: 100PX;
+    margin-top: 10px;
+}
+
+h1{
+    background-color: #FFF;
+    font-size: 25px;
+}
+
+h2{
+    background-color: #FFF;
 }
 
 button#entrar{
@@ -33,11 +51,15 @@ button#entrar{
     border-radius: 2px;
     width: 250px;
     height: 30px;
+    background-color: rgb(14, 0, 45);
+    color: #FFF ;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
 }
 
-h1{
-    text-align: center;
-    background-color: #FFF;
+button#entrar:hover{
+    background-color:rgb(220, 220, 220); 
+    color: rgb(14, 0, 45);
 }
 
 input{

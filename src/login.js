@@ -6,7 +6,6 @@ function logar(e){
   const senha = document.getElementById("senha").value;
 
   if(login === "admin" && senha === "admin"){
-    alert("Sucesso");
     location.href = "index2.html";
   }else{
     alert("Usuario ou senha incorretos");
