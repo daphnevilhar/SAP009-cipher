@@ -1,16 +1,13 @@
-# Cifra de César
+# MEDCIPHER
 
 ## Índice
 
 * [1. Prefácio](#1-prefácio)
 * [2. Sobre o projeto](#2-resumo-do-projeto)
-* [3. Considerações gerais](#3-considerações-gerais)
+* [3. Interface com o usuário](#3-considerações-gerais)
 * [4. Marco: Critérios de Aceitação Mínimos do Projeto](#5-marco-critérios-de-aceitação-mínimos-do-projeto)
 * [5. Marco Opcional: Adicione suporte para letras minúsculas e outros caracteres](#5-marco-opcional-adicione-suporte-para-letras-minúsculas-e-outros-caracteres)
-* [6. Considerações técnicas](#6-considerações-técnicas)
-* [7. Objetivos de aprendizagem](#7-objetivos-de-aprendizagem)
-* [8. Guias, dicas e leituras complementares](#8-guias-dicas-e-leituras-complementares)
-* [9. Para considerar o feedback do projeto](#9-para-considerar-o-feedback-do-projeto)
+
 
 ***
 
@@ -40,13 +37,16 @@ Em alguns momentos, faz-se necessário, palavras ou frases que o profissional co
 
 ## 3. Interface com o usuário
 
-Na primeira página permitirá que o usuário faça login para maior segurança e controle das informações. Todo o projeto foi pensado e realizado de forma com que a interação fosse clara, intuitiva e discreta.
+A primeira página permitirá que o usuário faça login para maior segurança e controle das informações. Todo o projeto foi pensado e realizado de forma com que a interação fosse clara, intuitiva e discreta.
+
 
 ![login-medcipher](https://user-images.githubusercontent.com/122536567/217109392-f366829e-9d85-419f-9f4b-8c14626df06d.png)
+
 
 O profissional digitará na primeira caixa a mensagem que deseja transformar em código e em seguida escolherá o número de deslocamento para decidir qual letra tomará o lugar da original.
 
 Ao clicar no botão criptografar ou descriptografar, aparecerá o resultado na segunda caixa. 
+
 
 ![criptografia](https://user-images.githubusercontent.com/122536567/217109899-83efc16e-45a2-444c-8802-26d40d18175d.png)
 
