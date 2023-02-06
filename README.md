@@ -16,13 +16,13 @@
 
 ## 1. Prefácio
 
-Esse é o meu primeiro projeto de desenvolvimento web, desenvolvido para o bootcamp da Laboratória. 
+Esse é o meu primeiro projeto de desenvolvimento web, criado para o bootcamp da Laboratória. 
 
 A [cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) é uma das técnicas mais simples de cifrar uma mensagem. É um tipo de cifra por substituição, em que cada letra do texto original é substituida por outra que se encontra há um número fixo de posições (deslocamento) mais a frente do mesmo alfabeto.
 
 Por exemplo, a palavra "CRIPTOGRAFAR" com o deslocamento de 10 posições será "MBSZDYQBKPKB".
 
-Neste projeto desenvolvido usando HTML, CSS e JavaScript, ousuário poderá cifrar e decifrar um texto no navegador indicando um deslocamento específico de caracteres. 
+Neste projeto desenvolvido usando HTML, CSS e JavaScript, o usuário poderá cifrar e decifrar um texto no navegador indicando um deslocamento específico de caracteres. 
 
 ## 2. Sobre o projeto
 
@@ -40,13 +40,17 @@ Em alguns momentos, faz-se necessário, palavras ou frases que o profissional co
 
 ## 3. Interface com o usuário
 
+Na primeira página permitirá que o usuário faça login para maior segurança e controle das informações. Todo o projeto foi pensado e realizado de forma com que a interação fosse clara, intuitiva e discreta.
+
 ![login-medcipher](https://user-images.githubusercontent.com/122536567/217109392-f366829e-9d85-419f-9f4b-8c14626df06d.png)
 
+O profissional digitará na primeira caixa a mensagem que deseja transformar em código e em seguida escolherá o número de deslocamento para decidir qual letra tomará o lugar da original.
 
+Ao clicar no botão criptografar ou descriptografar, aparecerá o resultado na segunda caixa. 
 
+![criptografia](https://user-images.githubusercontent.com/122536567/217109899-83efc16e-45a2-444c-8802-26d40d18175d.png)
 
-
-
+Então, terá a opção de adicionar ao prontuário ou sair, e será redirecionado a página inicial de login.
 
 ## 4. Interface implantada
 
