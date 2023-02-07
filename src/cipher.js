@@ -1,8 +1,8 @@
 const cipher = {
   encode: function(deslocamento, caixaTexto1){
 
-    if (deslocamento === null || caixaTexto1 === [] || caixaTexto1 === "" || deslocamento === "" || caixaTexto1 === 0 || deslocamento === 0){
-      throw new TypeError ("Algum campo está vazio, para continuar preencha-o.");
+    if (typeof deslocamento !== "number" || typeof caixaTexto1 !== "string" || caixaTexto1 === "" || deslocamento === "" || caixaTexto1 === 0 || deslocamento === 0){
+      throw new TypeError;
     }
   
     let resultado = ""
@@ -24,10 +24,6 @@ const cipher = {
         resultado += caixaTexto1.charAt(i);
       }
 
-      //if ((posicao >= 32 && posicao <= 47) || (posicao >= 58 && posicao <= 64) || (posicao >= 91 && posicao <=96) || (posicao >= 123 && posicao <= 126)){
-      //const caracteresEspeciais = ((posicao - 32 + deslocamento) % 33) + 32;
-      //resultado += String.fromCharCode(caracteresEspeciais); 
-      //  }
     }
     return resultado
     
@@ -35,8 +31,8 @@ const cipher = {
 
   decode: function(deslocamento, caixaTexto1){
     
-    if (deslocamento === null || caixaTexto1 === [] || caixaTexto1 === "" || deslocamento === "" || caixaTexto1 === 0 || deslocamento === 0){
-      throw new TypeError ("Algum campo está vazio, para continuar preencha-o.");
+    if (typeof deslocamento !== "number" || typeof caixaTexto1 !== "string" || caixaTexto1 === "" || deslocamento === "" || caixaTexto1 === 0 || deslocamento === 0){
+      throw new TypeError;
     }
     
     let resultado = ""
@@ -58,10 +54,6 @@ const cipher = {
         resultado += caixaTexto1.charAt(i);
       }
       
-      //if ((posicao >= 32 && posicao <= 47) || (posicao >= 58 && posicao <= 64) || (posicao >= 91 && posicao <=96) || (posicao >= 123 && posicao <= 126)){
-      //  const caracteresEspeciais = ((posicao - 126 - deslocamento) % 33) + 126;
-      //  resultado += String.fromCharCode(caracteresEspeciais); 
-      //}
     }
     return resultado
 
