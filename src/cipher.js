@@ -20,7 +20,7 @@ const cipher = {
         resultado += String.fromCharCode(letrasMinusculas); 
       }
 
-      if ((posicao >= 32 && posicao <= 47) || (posicao >= 58 && posicao <= 64) || (posicao >= 91 && posicao <=96) || (posicao >= 123 && posicao <= 126)){
+      if ((posicao >= 32 && posicao <= 47) || (posicao >= 58 && posicao <= 64) || (posicao >= 91 && posicao <=96) || (posicao >= 123 && posicao <= 255)){
         resultado += caixaTexto1.charAt(i);
       }
 
@@ -50,7 +50,7 @@ const cipher = {
         resultado += String.fromCharCode(letrasMinusculas); 
       }
 
-      if ((posicao >= 32 && posicao <= 47) || (posicao >= 58 && posicao <= 64) || (posicao >= 91 && posicao <=96) || (posicao >= 123 && posicao <= 126)){
+      if ((posicao >= 32 && posicao <= 47) || (posicao >= 58 && posicao <= 64) || (posicao >= 91 && posicao <=96) || (posicao >= 123 && posicao <= 255)){
         resultado += caixaTexto1.charAt(i);
       }
       
